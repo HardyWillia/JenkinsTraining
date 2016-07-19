@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuite" parallel="methods" thread-count="3">
+
+    <test name="myTests">
+        <classes>
+            <class name="com.mypractice.training.searchGoogleTest"/>
+        </classes>
+    </test>
+
+</suite>
+
